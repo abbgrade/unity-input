@@ -1,7 +1,7 @@
 
 
-# UNNECESSARY INPUT MANAGER 0.0.2
-for unity 4 (probably also 3.5)  
+# UNNECESSARY INPUT MANAGER 0.0.3
+for unity 3.5 and newer  
 by Mario von Rickenbach  
 www.mariov.ch
 
@@ -22,6 +22,13 @@ This code was initially written for the game Krautscape (www.krautscape.net). If
 - Support for up to 4 gamepads with mixed configurations & multiple keyboard configurations
 - Always get input from the last active device (for singleplayer games)
 
+## CHANGES
+
+### v0.0.3
+
+ - Axis deadzone and range configuration per device
+ - SlothfulButtonInput to filter bouncing key input
+ - MinMaxNormInput to normalize the input to a desired range
 
 ## USE IT IN ANOTHER PROJECT
 
